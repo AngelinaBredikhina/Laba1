@@ -1,0 +1,25 @@
+Программный код первого проекта:
+a=int(input('a='))
+b=int(input('b='))
+c=int(input('c='))
+if c-a!=0:  
+print(abs(1 - a * pow(b, c) - a * (pow(b, 2) - pow(c, 2)) + (b - c + a) * (12 + b) / (c - a)))
+else:
+    print("Делить на ноль нельзя. Введи другие значения")
+
+
+Программный код второго проекта:
+import random
+a=random.randint(1,100)
+b=-1
+while a!=b:
+    b = int(input('Угадай число: '))
+    if a > b:
+        print("Загаданное число больше")
+    elif a < b:
+        print("Загаданное число меньше")
+    else:
+        print("Число угадано")
+
+
+
